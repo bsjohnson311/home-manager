@@ -1,6 +1,7 @@
 { config, pkgs, lib, ... }:
 
 {
+# SSH config
   programs.ssh = {
     enable = true;
     enableDefaultConfig = false;
@@ -12,5 +13,11 @@
       };
     };
   };
-}
 
+# SSH agent
+  services.ssh-agent = {
+    enable = true;
+    enableZshIntegration = true;
+    enableBashIntegration = true;
+  };
+}
