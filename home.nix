@@ -78,5 +78,7 @@
       url = "https://github.com/bsjohnson311/starter.git";
       ref = "main";
     };
+    force = true;
+    recursive = true;
   };
 }
