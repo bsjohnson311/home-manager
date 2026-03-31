@@ -1,21 +1,6 @@
 { config, pkgs, lib, ... }:
 
 {
-  home.username = "bryce";
-  home.homeDirectory = "/home/bryce";
-
-  home.stateVersion = "25.11"; 
-
-  targets.genericLinux.gpu.enable = true;
-
-  news.display = "silent";
-
-  imports = [
-    ~/.config/home-manager/cli.nix
-    ~/.config/home-manager/git.nix
-    ~/.config/home-manager/ssh.nix
-  ];
-
   programs = {
     home-manager.enable = true;
     bash.enable = true;
@@ -81,6 +66,6 @@
     };
     force = true;
     recursive = true;
-    allRefs = true;
   };
 }
+
