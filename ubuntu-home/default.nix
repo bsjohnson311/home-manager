@@ -9,4 +9,9 @@
   targets.genericLinux.gpu.enable = true;
 
   news.display = "silent";
+
+  imports = [
+    ./git.nix
+    ./ssh.nix
+  ];
 }

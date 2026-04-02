@@ -19,8 +19,6 @@
 
       modules = [
         ./default
-        ./default/ssh.nix
-        ./default/git.nix
         ./default/cli.nix
         machineModule
       ];
@@ -30,6 +28,6 @@
       };
     };
   in {
-    homeConfigurations."bryce" = mkHomeConfig ./machine/ubuntu-home.nix "x86_64-linux";
+    homeConfigurations."bryce" = mkHomeConfig ./ubuntu-home "x86_64-linux";
   };
 }
