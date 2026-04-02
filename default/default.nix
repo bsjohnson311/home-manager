@@ -45,12 +45,6 @@
       vimAlias = true;
       vimdiffAlias = true;
     };
-    chromium = {
-      enable = true;
-      extensions = [
-        "cjpalhdlnbpafiamejdnhcphjbkeiagm" # uBlock Origin
-      ];
-    };
     zoxide = {
       enable = true;
       enableBashIntegration = true;

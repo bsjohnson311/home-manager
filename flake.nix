@@ -30,6 +30,6 @@
       };
     };
   in {
-    homeConfigurations."bryce" = mkHomeConfig ./machine/bryce.nix "x86_64-linux";
+    homeConfigurations."bryce" = mkHomeConfig ./machine/ubuntu-home.nix "x86_64-linux";
   };
 }
