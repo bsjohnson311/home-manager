@@ -8,8 +8,8 @@
       enableZshIntegration = true;
       settings = {
         command = "zsh";
-        background-opacity = 0.95;
-        macos-titlebar-style = "hidden";
+        background-opacity = 0.90;
+        window-decoration = false;
       };
     };
     tmux = {

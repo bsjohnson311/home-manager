@@ -5,7 +5,6 @@
     gnomeExtensions.blur-my-shell
     gnomeExtensions.paperwm
     gnomeExtensions.hide-top-bar
-    gnomeExtensions.search-light
   ];
 
   dconf.settings = {
@@ -15,7 +14,6 @@
         "blur-my-shell@aunetx"
         "paperwm@paperwm.github.com"
         "hide-top-bar@tuxor1337"
-        "search-light@icedman"
       ];
     };
   };
