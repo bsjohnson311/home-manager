@@ -15,6 +15,6 @@
     ./ssh.nix
     ./ollama.nix
     ./claude-code.nix
-    # ./hyprland.nix
+    ./gnome.nix
   ];
 }
