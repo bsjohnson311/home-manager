@@ -10,6 +10,8 @@
         command = "zsh";
         background-opacity = 0.90;
         window-decoration = false;
+        macos-titlebar-style = "hidden";
+        confirm-close-surface = false;
       };
     };
     tmux = {
