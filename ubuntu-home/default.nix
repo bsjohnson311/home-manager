@@ -13,5 +13,8 @@
   imports = [
     ./git.nix
     ./ssh.nix
+    ./ollama.nix
+    ./claude-code.nix
+    # ./hyprland.nix
   ];
 }

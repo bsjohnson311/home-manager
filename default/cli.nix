@@ -7,10 +7,12 @@
       ll = "ls -l";
     };
     packages = with pkgs; [
-      oh-my-zsh
       bat
+      curl
       lazygit
+      oh-my-zsh
       ripgrep
+      wget
     ];
   };
 }
