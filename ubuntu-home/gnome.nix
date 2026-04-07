@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     gnomeExtensions.blur-my-shell
     gnomeExtensions.paperwm
-    gnomeExtensions.hide-top-bar
   ];
 
   dconf.enable = true;
@@ -14,7 +13,6 @@
       enabled-extensions = [
         "blur-my-shell@aunetx"
         "paperwm@paperwm.github.com"
-        "hide-top-bar@tuxor1337"
       ];
     };
 
