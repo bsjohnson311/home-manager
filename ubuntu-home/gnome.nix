@@ -7,6 +7,7 @@
     gnomeExtensions.hide-top-bar
   ];
 
+  dconf.enable = true;
   dconf.settings = {
     "org/gnome/shell" = {
       disable-user-extensions = false;
@@ -42,6 +43,11 @@
       primary-color = "#023c88";
       secondary-color = "#5789ca";
       color-shading-type = "solid";
+    };
+
+    "org/gnome/shell/extensions/dash-to-dock" = {
+      background-opacity = 0.0;
+      transparency-mode = "FIXED";
     };
   };
 }
