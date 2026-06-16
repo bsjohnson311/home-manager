@@ -3,7 +3,6 @@
 {
   home.packages = with pkgs; [
     gnomeExtensions.blur-my-shell
-    gnomeExtensions.paperwm
   ];
 
   dconf.enable = true;
@@ -12,7 +11,6 @@
       disable-user-extensions = false;
       enabled-extensions = [
         "blur-my-shell@aunetx"
-        "paperwm@paperwm.github.com"
       ];
     };
 

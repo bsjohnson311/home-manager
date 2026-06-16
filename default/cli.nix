@@ -10,6 +10,7 @@
       bat
       curl
       lazygit
+      nodejs
       oh-my-zsh
       ripgrep
       wget
