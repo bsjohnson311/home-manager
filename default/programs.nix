@@ -24,6 +24,11 @@
         set -g status-bg black
       '';
     };
+    zellij = {
+      enable = true;
+      enableBashIntegration = true;
+      enableZshIntegration = true;
+    };
     fzf = {
       enable = true;
       enableBashIntegration = true;
